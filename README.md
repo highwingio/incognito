@@ -1,5 +1,5 @@
 # Incognito
-A wrapper script for retrieving tokens from AWS Cognito
+A wrapper script for generating tokens from AWS Cognito
 
 
 ## Installation
