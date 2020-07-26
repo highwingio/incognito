@@ -1,6 +1,5 @@
 # Incognito
-### A wrapper script for retrieving tokens from AWS Cognito, inspired by
-Segment's [`aws-okta`](https://github.com/segmentio/aws-okta)
+A wrapper script for retrieving tokens from AWS Cognito
 
 
 ## Installation
@@ -17,7 +16,9 @@ After that, you can run `incognito generate` anytime to generate a new Cognito
 token to be used elsewhere. You can use something like the following to
 automatically copy it to your clipboard:
 
+```bash
 $ incognito generate | pbcopy
+```
 
 ## Development
 Incognito is written in Go.
