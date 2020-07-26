@@ -12,12 +12,7 @@ import (
 var generateCmd = &cobra.Command{
 	Use:   "generate",
 	Short: "Generate a new Cognito token based on saved credentials",
-	Long: `A longer description that spans multiple lines and likely contains examples
-and usage of using your command. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Long:  "Generate a new Cognito token based on saved credentials. You must run 'incognito login' once before generating tokens.",
 	RunE: func(cmd *cobra.Command, args []string) error {
 		store, err := storage.NewKeyringStorage()
 		if err != nil {
