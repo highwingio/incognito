@@ -5,6 +5,8 @@ A wrapper script for generating tokens from AWS Cognito
 ## Installation
 `go get github.com/highwingio/incognito`
 
+`export AWS_REGION=<region>`
+
 ## Usage
 
 Once installed, you'll need to run `incognito login` once with your username,
