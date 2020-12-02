@@ -3,9 +3,13 @@ A wrapper script for generating tokens from AWS Cognito
 
 
 ## Installation
-`go get github.com/highwingio/incognito`
+Since `go get` doesn't support modules just yet, it's easiest to install using `https://github.com/FiloSottile/homebrew-gomod`:
 
-`export AWS_REGION=<region>`
+```bash
+brew install FiloSottile/gomod/brew-gomod
+brew gomod github.com/highwingio/incognito
+export AWS_REGION=<region>
+```
 
 ## Usage
 
