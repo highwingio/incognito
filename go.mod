@@ -5,7 +5,7 @@ go 1.14
 require (
 	github.com/99designs/keyring v1.1.5
 	github.com/alexrudd/cognito-srp/v2 v2.0.1
-	github.com/aws/aws-sdk-go v1.33.12
+	github.com/aws/aws-sdk-go v1.34.0
 	github.com/danieljoos/wincred v1.1.0 // indirect
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/keybase/go-keychain v0.0.0-20191114153608-ccd67945d59e // indirect
