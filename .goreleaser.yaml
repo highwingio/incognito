@@ -42,7 +42,7 @@ brews:
   - name: incognito
     repository:
       owner: highwingio
-      name: homebrew-incognito
+      name: incognito
       branch: main
 
 # The lines beneath this are called `modelines`. See `:help modeline`
